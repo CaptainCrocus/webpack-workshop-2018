@@ -1,3 +1,1 @@
-export default function(){
-    return 'nav';
-};
+export default () => 'nav';
