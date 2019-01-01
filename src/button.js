@@ -1,8 +1,11 @@
-// take the str, the button lable and return an elemetnt
+// take a str, the button label and return a element
 /**
- * 
- * @param {string} buttonName 
- * @returns { Element }
+ *
+ * @param {string} buttonName
+ * @returns {Element}
  */
-const makeButton = (buttonName) => `Button: ${buttonName}`;
-module.exports = makeButton;
+const makeButton = buttonName => {
+  return `Button: ${buttonName}`;
+};
+
+export default makeButton
